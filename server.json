@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.churnsolution/analytics",
+  "title": "Churn Solution",
+  "description": "Query Churn Solution cancellation-flow metrics, revenue, and feedback analytics (read-only).",
+  "repository": {
+    "url": "https://github.com/Churnsolution/Churnsolution-MCP",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.churnsolution.com"
+    }
+  ]
+}
